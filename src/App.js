@@ -20,8 +20,7 @@ import Insider from "./layout/insider/index";
 
 const App = () => {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div className="main">
       <Header></Header>
       <Insider></Insider>
       <Footer></Footer>

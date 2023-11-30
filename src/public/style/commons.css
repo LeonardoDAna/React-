@@ -3,6 +3,34 @@ body {
     padding: 0;
 }
 
-.containerRoot {
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headerContainer {
     border: 1px solid #222;
+}
+
+.insiderContainer {
+    border: 1px solid #222;
+    height: 100%;
+}
+
+.footerContainer {
+    border: 1px solid #222;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.footer li {
+    height: 50px;
+    line-height: 50px;
 }
