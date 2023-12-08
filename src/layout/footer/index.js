@@ -1,3 +1,5 @@
+import store from "../../redux/store";
+import { changeState } from "../../redux/actions/mainPage-actions";
 const Footer = () => {
   const list = [
     {
@@ -13,11 +15,18 @@ const Footer = () => {
       text: "我的",
     },
   ];
+
+  const changeStateFn = (e) => {
+    store.dispatch(changeState(e));
+  };
+
   return (
     <div className="footerContainer">
       <ul className="footer">
-        {list.map((e) => (
-          <li key={e.id}>{e.text}</li>
+        {list.map((e, index) => (
+          <li key={e.id} onClick={() => changeStateFn(index)}>
+            {e.text}
+          </li>
         ))}
       </ul>
     </div>

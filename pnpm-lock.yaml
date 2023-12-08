@@ -7,6 +7,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-scripts: 5.0.1
+  redux: ^5.0.0
   web-vitals: ^2.1.4
 
 dependencies:
@@ -16,6 +17,7 @@ dependencies:
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
   react-scripts: registry.npmmirror.com/react-scripts/5.0.1_react@18.2.0
+  redux: registry.npmmirror.com/redux/5.0.0
   web-vitals: registry.npmmirror.com/web-vitals/2.1.4
 
 packages:
@@ -11030,6 +11032,12 @@ packages:
     dependencies:
       indent-string: registry.npmmirror.com/indent-string/4.0.0
       strip-indent: registry.npmmirror.com/strip-indent/3.0.0
+    dev: false
+
+  registry.npmmirror.com/redux/5.0.0:
+    resolution: {integrity: sha512-blLIYmYetpZMET6Q6uCY7Jtl/Im5OBldy+vNPauA8vvsdqyt66oep4EUpAMWNHauTC6xa9JuRPhRB72rY82QGA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/redux/-/redux-5.0.0.tgz}
+    name: redux
+    version: 5.0.0
     dev: false
 
   registry.npmmirror.com/reflect.getprototypeof/1.0.4:
