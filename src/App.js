@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./layout/header/index";
 import Footer from "./layout/footer/index";
 import Insider from "./layout/insider/index";
+import PokemonSearchBox from "./views/pokemon/index.jsx";
 
 // 类组件
 // class App extends React.Component {
@@ -21,9 +22,10 @@ import Insider from "./layout/insider/index";
 const App = () => {
   return (
     <div className="main">
-      <Header></Header>
+      <PokemonSearchBox></PokemonSearchBox>
+      {/* <Header></Header>
       <Insider></Insider>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   );
 };
